@@ -9,7 +9,11 @@ The framework to integrate Flint Payment Solution into your app.
 
 ###Cocoapod integration
 In your Podfile include the source
-```source 'https://github.com/flintmobile/ios-flint-connect-sdk.git'```
+```
+source 'https://github.com/flintmobile/ios-flint-connect-sdk.git'
+```
 
 Then add the FlintConnectSDK
-```pod 'FlintConnectSDK'```
+```
+pod 'FlintConnectSDK'
+```
