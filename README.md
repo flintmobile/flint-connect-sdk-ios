@@ -12,8 +12,11 @@ In your Podfile include the source
 ```
 source 'https://github.com/flintmobile/ios-flint-connect-sdk.git'
 ```
-
 Then add the FlintConnectSDK
 ```
 pod 'FlintConnectSDK'
+```
+If you are also using other public pods (e.g. AFNetworking), you will need to include
+```
+source 'https://github.com/CocoaPods/Specs.git'
 ```
