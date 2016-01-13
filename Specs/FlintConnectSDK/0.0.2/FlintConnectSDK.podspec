@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/flintmobile/iOS-Podspec"
   s.license          = 'Flint Copyright'
   s.author           = { "Flint Mobile" => "appledev@flint.com" }
-  s.source           = { :http => "https://github.com/flintmobile/flint-connect-sdk-ios/blob/master/FlintConnectSDK.framework.zip?raw=true" }
+  s.source           = { :http => "https://github.com/flintmobile/ios-flint-connect-sdk/blob/master/beta/FlintConnectSDK.framework.zip?raw=true" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
