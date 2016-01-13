@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = "**/*.h"
-  s.exclude_files = "Framework/FlintConnect/FlintConnect/Public Framework/UI/Header/*.{h,m}"
   s.resource_bundles = { 'FlintConnect' => ['Framework/FlintConnect/FlintConnect/Resource'] }
   s.frameworks = 'FlintConnectSDK', 'CoreTelephony', 'Security', 'CoreLocation', 'SystemConfiguration'
   s.libraries = 'z'
