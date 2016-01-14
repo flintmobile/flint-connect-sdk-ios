@@ -20,3 +20,16 @@ If you are also using other public pods (e.g. AFNetworking), you will need to in
 ```
 source 'https://github.com/CocoaPods/Specs.git'
 ```
+
+###Bitcode Support
+Currently we are not yet support bit code due to a library dependency. So the work around is disable bitcode for your project if you are using manual integration
+If you use cocoa pod, the snippet bellow disable bitcode when integrate our framework
+```
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+    end
+  end
+end
+```
