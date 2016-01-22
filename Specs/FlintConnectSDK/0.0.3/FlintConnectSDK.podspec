@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "FlintConnectSDK"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Flint Payment SDK"
-  s.homepage         = "https://github.com/flintmobile/ios-flint-connect-sdk"
+  s.homepage         = "https://github.com/flintmobile/ios-flint-connect-sdk
   s.license          = 'Flint Copyright'
   s.author           = { "Flint Mobile" => "appledev@flint.com" }
-  s.source           = { :http => "https://github.com/flintmobile/ios-flint-connect-sdk/blob/master/0.0.2/FlintConnectSDK.framework.zip?raw=true" }
+  s.source           = { :http => "https://github.com/flintmobile/ios-flint-connect-sdk/blob/master/beta/FlintConnectSDK.framework.zip?raw=true" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
